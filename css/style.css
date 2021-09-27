@@ -75,9 +75,11 @@ body {
 
 .header {
     margin: 0 auto;
+    
 }
 
 #navmenu {
+    
     color: white;
     font-family: Amatic;
     font-size: 37pt;
@@ -86,7 +88,7 @@ body {
     padding: 5px;
     border-radius: 10px;
     display: inline;
-    /* margin-top: 25px; */
+  
 }
 
 .linav {
@@ -126,8 +128,9 @@ body {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 25px;
 }
-.footer{
-    color:white;
+
+.footer {
+    color: white;
     margin-top: 50px;
     width: 100%;
     height: 75px;
@@ -135,11 +138,12 @@ body {
     font-family: AmaticR;
     font-size: 28pt;
     line-height: 40pt;
-    
 }
-.footer #nowDate{
+
+.footer #nowDate {
     margin-left: 30px;
 }
+
 .TextLogo h1 {
     font-family: AmaticR;
     font-size: 66pt;
@@ -180,21 +184,21 @@ body {
 
 .about {
     width: 100%;
-    height:100%;
+    height: 100%;
     color: white;
     display: flex;
     flex-direction: column;
 }
-.about h1{
+
+.about h1 {
     margin-bottom: 100px;
 }
+
 .tabout {
-    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 0 300px;
-    
     /* align-items: stretch; */
 }
 
@@ -207,17 +211,18 @@ body {
 
 .Wcontent {
     width: 100%;
-    height:100%;
+    height: 100%;
     color: white;
 }
 
-.mainW {
-}
+.mainW {}
+
 .works {
-   display: flex;
-   flex-direction: column;
-   margin: 0 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
 }
+
 .Slider {
     margin-top: 30px;
     padding: 55px;
@@ -231,39 +236,44 @@ body {
     background-color: rgb(255, 123, 0);
     border-radius: 20px;
 }
-.sliderText{
 
-}
-.sliderImg{
+.sliderText {}
+
+.sliderImg {
     margin-left: 20px;
 }
-#fproj{
+
+#fproj {
     border: 5px solid rgb(255, 255, 255);
     border-radius: 15px;
     height: 450px;
     width: 700px;
 }
-#fprojTwo{
+
+#fprojTwo {
     border: 5px solid rgb(255, 255, 255);
     border-radius: 15px;
     height: 450px;
     width: 700px;
 }
-#fprojThree{
+
+#fprojThree {
     border: 5px solid rgb(255, 255, 255);
     border-radius: 15px;
     height: 450px;
     width: 700px;
 }
-#fprojFour{
+
+#fprojFour {
     border: 5px solid rgb(255, 255, 255);
     border-radius: 15px;
     height: 450px;
     width: 700px;
 }
-.buttonNext{
+
+.buttonNext {
     background-color: white;
-    color:rgb(10, 14, 48);
+    color: rgb(10, 14, 48);
     font-family: AmaticR;
     font-size: 20pt;
     font-weight: bolder;
@@ -273,31 +283,29 @@ body {
     cursor: pointer;
     transition: 0.5s;
 }
-.buttonNext:hover{
+
+.buttonNext:hover {
     background-color: rgb(230, 97, 8);
-    color:white;
+    color: white;
     font-size: 21pt;
     width: 95px;
 }
-.ttext {
 
+.ttext {
     flex-basis: 600px;
     flex-shrink: 0;
-    
 }
 
 .ttext p {
-   
     font-family: AmaticR;
     font-size: 28pt;
     line-height: 40pt;
-    
 }
+
 .about h1 {
     font-family: Amatic;
     font-size: 40pt;
 }
-
 
 #backk {
     margin-top: 50px;
@@ -321,10 +329,55 @@ body {
     width: 65px;
     height: 65px;
     cursor: pointer;
-    
-} 
-@media screen and (max-width: 1500px){
-    #navmenu {
+}
+
+.title01 {
+ font-size: 24pt;
+ font-family: AmaticR;
+ font-weight: 500;   
+}
+
+.title01 img {
+    width: 450px;
+    height: 530px;
+}
+.blog{
+    flex-grow: 1;
+    flex-shrink: 0; 
+}
+.footerBlog {
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    font-family: AmaticR;
+    font-size: 28pt;
+    line-height: 40pt;
+    flex-grow: 0;
+    flex-shrink: 0; 
+}
+
+.contentBlog {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.Blogcontent {
+    margin-top: 40px;
+    color:white;
+    height: 100%;
+     width: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------------------------------------------АДАПТИВ----------------------------------------------------*/
+
+@media screen and (max-width: 1500px) {
+    #navmenu, #flexnavmenu {
         color: white;
         font-family: Amatic;
         font-size: 25pt;
@@ -335,36 +388,30 @@ body {
         display: inline;
         /* margin-top: 25px; */
     }
-    
     .linav {
         display: inline;
         margin-left: 40px;
     }
-    
     .linav a {
         text-decoration: none;
         color: white;
         transition: 0.3s;
     }
-    
     .linav a:hover {
         color: thistle;
     }
-    
     .content {
         margin: 0;
         height: 100%;
         width: 100%;
         text-align: center;
     }
-    
     .mcontent {
         width: 100%;
         height: 100vh;
         background-image: url(../media/images/sheets-3392340.jpg);
         background-size: 50% auto;
     }
-    
     .mainT {
         display: inline-block;
         margin-top: 180px;
@@ -373,39 +420,32 @@ body {
         background: rgba(0, 0, 0, 0.8);
         border-radius: 25px;
     }
-    
     .TextLogo h1 {
         font-family: AmaticR;
         font-size: 45pt;
     }
-    
     .TextLogo p {
         font-family: Maru;
         font-size: 13pt;
     }
-    
     .imgbar {
         margin-top: 40px;
     }
-    
     .imgbar img {
         margin-left: 60px;
         margin-top: 10px;
-        width: 8%;  
+        width: 8%;
         height: 10%;
         transition: 0.5s;
     }
-    
     .imgbar img:hover {
         width: 10%;
         height: 12%;
         cursor: pointer;
     }
-    
     .mcontent #ag {
         display: block;
     }
-    
     .mcontent a img {
         margin-top: 120px;
         height: 80px;
@@ -413,16 +453,14 @@ body {
     }
     .Wcontent {
         width: 100%;
-        height:100%;
+        height: 100%;
         color: white;
     }
-    
-    .mainW {
-    }
+    .mainW {}
     .works {
-       display: flex;
-       flex-direction: column;
-       margin: 0 70px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 70px;
     }
     .Slider {
         margin-top: 30px;
@@ -437,45 +475,44 @@ body {
         background-color: rgb(255, 123, 0);
         border-radius: 20px;
     }
-    .sliderText{
-       width: 60%;
+    .sliderText {
+        width: 60%;
     }
-    .sliderImg{
+    .sliderImg {
         margin-left: 20px;
         max-width: 100%;
-       
     }
-    #fproj{
+    #fproj {
         border: 5px solid rgb(255, 255, 255);
         border-radius: 15px;
         height: 450px;
         width: 700px;
         max-width: 100%;
     }
-    #fprojTwo{
+    #fprojTwo {
         border: 5px solid rgb(255, 255, 255);
         border-radius: 15px;
         height: 450px;
         width: 700px;
         max-width: 100%;
     }
-    #fprojThree{
+    #fprojThree {
         border: 5px solid rgb(255, 255, 255);
         border-radius: 15px;
         height: 450px;
         width: 700px;
         max-width: 100%;
     }
-    #fprojFour{
+    #fprojFour {
         border: 5px solid rgb(255, 255, 255);
         border-radius: 15px;
         height: 450px;
         width: 700px;
         max-width: 100%;
     }
-    .buttonNext{
+    .buttonNext {
         background-color: white;
-        color:rgb(10, 14, 48);
+        color: rgb(10, 14, 48);
         font-family: AmaticR;
         font-size: 20pt;
         font-weight: bolder;
@@ -485,22 +522,24 @@ body {
         cursor: pointer;
         transition: 0.5s;
     }
-    .buttonNext:hover{
+    .buttonNext:hover {
         background-color: rgb(230, 97, 8);
-        color:white;
+        color: white;
         font-size: 21pt;
         width: 95px;
     }
 }
+
 @media screen and (max-width: 1100px) {
-    .sliderText{
+    .sliderText {
         font-size: 15pt;
     }
 }
- @media screen and (max-width: 800px) {
-     .footer{
-         font-size: 15pt;
-     }
+
+@media screen and (max-width: 800px) {
+    .footer {
+        font-size: 15pt;
+    }
     .linav {
         display: block;
         margin: 0;
@@ -508,7 +547,9 @@ body {
     #navmenu{
         font-size: 30pt;
         display: block;
+        
     }
+  
     .mainT {
         margin-top: 20px;
     }
@@ -519,7 +560,6 @@ body {
     .TextLogo p {
         font-family: Maru;
         font-size: 10pt;
-      
     }
     .imgbar {
         margin-top: 20px;
@@ -539,155 +579,135 @@ body {
         height: 50px;
         width: 50px;
     }
-    
-.about {
-    width: 100%;
-    height:100%;
-    color: white;
-    display: flex;
-    flex-direction: column;
+    .about {
+        width: 100%;
+        height: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .about h1 {
+        margin-bottom: 30px;
+    }
+    .tabout {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        /* align-items: stretch; */
+    }
+    .tabout #me {
+        height: 350px;
+        width: 250px;
+        flex-basis: 200px;
+        border-radius: 10px;
+        flex-grow: 0;
+        align-self: center;
+    }
+    .ttext {
+        flex-basis: 0;
+        /* flex-shrink: 0; */
+    }
+    .ttext p {
+        font-family: AmaticR;
+        font-size: 18pt;
+        line-height: 40pt;
+    }
+    .about h1 {
+        font-family: Amatic;
+        font-size: 25pt;
+    }
+    #backk {
+        margin-top: 50px;
+        font-family: AmaticR;
+        font-size: 20pt;
+        transition: 0.5s;
+    }
+    #backk:hover {
+        color: violet;
+    }
+    #star {
+        width: 60px;
+        height: 60px;
+        transition: 0.5s;
+        align-self: center;
+    }
+    #star:hover {
+        width: 65px;
+        height: 65px;
+        cursor: pointer;
+    }
+    .Wcontent {
+        width: 100%;
+        height: 100%;
+        color: white;
+    }
+    .mainW {}
+    .works {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    .Slider {
+        margin-top: 30px;
+        padding: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-family: AmaticR;
+        font-size: 28pt;
+        font-weight: bold;
+        line-height: 40pt;
+        background-color: rgb(255, 123, 0);
+        border-radius: 20px;
+    }
+    .sliderText {
+        width: 100%;
+    }
+    .sliderImg {
+        margin-left: 20px;
+    }
+    #fproj {
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 15px;
+        height: 350px;
+        width: 400px;
+    }
+    #fprojTwo {
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 15px;
+        height: 450px;
+        width: 700px;
+    }
+    #fprojThree {
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 15px;
+        height: 450px;
+        width: 700px;
+    }
+    #fprojFour {
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 15px;
+        height: 450px;
+        width: 700px;
+    }
+    .buttonNext {
+        background-color: white;
+        color: rgb(10, 14, 48);
+        font-family: AmaticR;
+        font-size: 20pt;
+        font-weight: bolder;
+        width: 90px;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 235, 252);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .buttonNext:hover {
+        background-color: rgb(230, 97, 8);
+        color: white;
+        font-size: 21pt;
+        width: 95px;
+    }
 }
-.about h1{
-    margin-bottom: 30px;
-}
-.tabout {
-    
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center; 
-    margin: 0;
-    /* align-items: stretch; */
-}
-
-.tabout #me {
-    height: 350px;
-    width: 250px;
-    flex-basis: 200px;
-    border-radius: 10px;
-    flex-grow: 0;
-    align-self: center;
-}
-
-
-
-.ttext {
-    flex-basis: 0; 
-    /* flex-shrink: 0; */
-    
-}
-
-.ttext p {
-   
-    font-family: AmaticR;
-    font-size: 18pt;
-    line-height: 40pt;
-}
-.about h1 {
-    font-family: Amatic;
-    font-size: 25pt;
-}
-
-
-#backk {
-    margin-top: 50px;
-    font-family: AmaticR;
-    font-size: 20pt;
-    transition: 0.5s;
-}
-
-#backk:hover {
-    color: violet;
-}
-
-#star {
-    width: 60px;
-    height: 60px;
-    transition: 0.5s;
-    align-self: center;
-}
-
-#star:hover {
-    width: 65px;
-    height: 65px;
-    cursor: pointer;
-} 
-
-.Wcontent {
-    width: 100%;
-    height:100%;
-    color: white;
-}
-
-.mainW {
-}
-.works {
-   display: flex;
-   flex-direction: column;
-   margin: 0 10px;
-}
-.Slider {
-    margin-top: 30px;
-    padding: 15px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    font-family: AmaticR;
-    font-size: 28pt;
-    font-weight: bold;
-    line-height: 40pt;
-    background-color: rgb(255, 123, 0);
-    border-radius: 20px;
-}
-.sliderText{
-width: 100%;
-}
-.sliderImg{
-    margin-left: 20px;
-}
-#fproj{
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    height: 350px;
-    width: 400px;
-}
-#fprojTwo{
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    height: 450px;
-    width: 700px;
-}
-#fprojThree{
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    height: 450px;
-    width: 700px;
-}
-#fprojFour{
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    height: 450px;
-    width: 700px;
-}
-.buttonNext{
-    background-color: white;
-    color:rgb(10, 14, 48);
-    font-family: AmaticR;
-    font-size: 20pt;
-    font-weight: bolder;
-    width: 90px;
-    border-radius: 10px;
-    border: 2px solid rgb(0, 235, 252);
-    cursor: pointer;
-    transition: 0.5s;
-}
-.buttonNext:hover{
-    background-color: rgb(230, 97, 8);
-    color:white;
-    font-size: 21pt;
-    width: 95px;
-}
-
-
- }
-
