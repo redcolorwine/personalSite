@@ -9,6 +9,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(10, 14, 48);
+    text-align: center;
 }
 
 * {
@@ -568,24 +569,7 @@ body {
         width: 700px;
         max-width: 100%;
     }
-    .buttonNext {
-        background-color: white;
-        color: rgb(10, 14, 48);
-        font-family: AmaticR;
-        font-size: 20pt;
-        font-weight: bolder;
-        width: 90px;
-        border-radius: 10px;
-        border: 2px solid rgb(0, 235, 252);
-        cursor: pointer;
-        transition: 0.5s;
-    }
-    .buttonNext:hover {
-        background-color: rgb(230, 97, 8);
-        color: white;
-        font-size: 21pt;
-        width: 95px;
-    }
+
 }
 
 @media screen and (max-width: 1100px) {
@@ -751,21 +735,55 @@ body {
         width: 700px;
     }
     .buttonNext {
-        background-color: white;
-        color: rgb(10, 14, 48);
-        font-family: AmaticR;
         font-size: 20pt;
-        font-weight: bolder;
         width: 90px;
         border-radius: 10px;
-        border: 2px solid rgb(0, 235, 252);
-        cursor: pointer;
-        transition: 0.5s;
+       
     }
     .buttonNext:hover {
         background-color: rgb(230, 97, 8);
         color: white;
         font-size: 21pt;
         width: 95px;
+    }
+    .ContactsContent{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .contacts{
+        margin-top: 40px;
+        flex:1 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ctext{
+        align-self: center;
+        padding: 15px;
+        color:white;
+        font-family: AmaticR;
+        font-size: 28pt;
+        line-height: 40pt;
+        background-color: rgb(230, 97, 8);
+        border-radius: 15px;
+        
+    }
+
+
+    #cImg{
+        align-self: center;
+        margin: 0;
+        margin-top: 20px;
+        border-radius: 25px;
+        height: 500px;
+        width: 450px;
+    }
+    .cfooter{
+       
+        font-size: 28pt;
     }
 }
